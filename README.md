@@ -22,14 +22,14 @@ git clone https://github.com/lodwickmasete/requests.js.git
 
 Include in HTML
 
-```<script src="requests.js"></script>```
+<script src="requests.js"></script>
 
 Usage
 
 Here’s how to use requests.js:
 
 GET Request
-```
+`
 requests.get('https://api.example.com/data', 
   function (response) {
     console.log('Data:', response);
@@ -38,9 +38,9 @@ requests.get('https://api.example.com/data',
     console.error('Error:', error);
   }
 );
-```
+
 POST Request
-```
+
 requests.post('https://api.example.com/data', 
   { key: 'value' }, 
   function (response) {
@@ -50,9 +50,9 @@ requests.post('https://api.example.com/data',
     console.error('Error:', error);
   }
 );
-```
+
 PUT Request
-```
+
 requests.put('https://api.example.com/data/1', 
   { key: 'updatedValue' }, 
   function (response) {
@@ -62,9 +62,9 @@ requests.put('https://api.example.com/data/1',
     console.error('Error:', error);
   }
 );
-```
+
 DELETE Request
-```
+
 requests.delete('https://api.example.com/data/1', 
   function (response) {
     console.log('Data deleted:', response);
@@ -73,7 +73,7 @@ requests.delete('https://api.example.com/data/1',
     console.error('Error:', error);
   }
 );
-```
+
 Contributing
 
 Contributions are welcome! If you have any ideas or suggestions, feel free to open an issue or submit a pull request.
